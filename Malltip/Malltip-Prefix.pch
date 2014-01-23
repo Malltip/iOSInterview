@@ -1,0 +1,32 @@
+//
+// Prefix header for all source files of the 'Malltip' target in the 'Malltip' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#import "AppEngine.h"
+#import "AppDelegate.h"
+
+#endif
+
+#define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)
+
+#define SERVER_URL              @"https://m.malltip.com/api/v1/mall/4170/feed/offset/0"
+
+#define ALERT_TIPS      @"Error"
+#define IS_IPHONE_5             ([[UIScreen mainScreen] bounds].size.height > 500)
+
+#define GlobalAppEngine           [AppEngine sharedInstance]
+#define GlobalAppDelegate       [AppDelegate sharedDelegate]
+
+#define Malltip           @"Malltip"
+
+#define PLIST_FILENAME          @"metadata.plist"
