@@ -20,7 +20,7 @@ Task
 3. In the *source* directory, please create an iOS app that accomplishes the following:
   * Connect to the Malltip feed API endpoint (see API section below for details) with mallId **4168** and offset **0**
   * Create a TableView that displays a list of feeds
-  * [Click here]() for a screenshot mockup of what the final product should look like
+  * [Click here](https://github.com/Malltip/iOSInterview/blob/master/example.png) for a screenshot mockup of what the final product should look like. Note that the exact feeds you retrieve may differ from screenshot
 4. Commit and Push your code to your new repository
 5. Send us a pull request, we will review your code and get back to you
 
