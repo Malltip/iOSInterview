@@ -73,7 +73,8 @@ The JSON returned by this request is shown below. Note that actual JSON may cont
       "hasLogo":true,"isInMall":true,
       "MallNameId":"",
       "approved":true,
-      "isSaved":false,"isValid":true
+      "isSaved":false,
+      "isValid":true
     },
     ...],
   "offset":11652
