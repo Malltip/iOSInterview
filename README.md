@@ -83,4 +83,10 @@ The JSON returned by this request is shown below. Note that actual JSON may cont
 Note that the JSON response contains two root elements:
 
 * "feeds" contains an array of deals for the mall specified
-* "offset" contains the feedId of the last feed in the feeds array
+* "offset" contains the feedId of the last feed in the feeds array 
+
+**Retailer Logo** images can be obtained from 
+
+`https://d2yrj8lu79au2z.cloudfront.net/logos/[retailerId].png`
+
+where [retailerId] is the retailerId obtained from the feed API request.
