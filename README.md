@@ -43,7 +43,7 @@ This endpoint returns a *maximum* of 20 feeds that can be found in the specified
 
 In this example, the feed API requests a json response for mallId **4170** and offset **0**
 
-`https://m.malltip.com/api/v1/mall/4170/offset/0`
+`https://m.malltip.com/api/v1/mall/4170/feed/offset/0`
 
 The JSON returned by this request is shown below. Note that actual JSON may contain less whitespace.
 
