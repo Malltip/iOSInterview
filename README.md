@@ -3,7 +3,7 @@ iOS Programming Task
 
 In order to be considered for the iOS position, you must complete the following steps.
 
-*Note: This task should take no longer than 1-2 hours at most.*
+*Note: This task should take no longer than 30 minutes to 1 hour at most.*
 
 Prerequisites
 =============
