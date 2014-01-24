@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E27AD9D1BED4EF598B7A46C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD0523FFCB54E52BADAA12D /* libPods.a */; };
+		C00CAFC71892091700BE6CFE /* MallFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C00CAFC61892091700BE6CFE /* MallFeedItem.m */; };
 		C09DE1A81891EC250027E642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DE1A71891EC250027E642 /* Foundation.framework */; };
 		C09DE1AA1891EC250027E642 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DE1A91891EC250027E642 /* CoreGraphics.framework */; };
 		C09DE1AC1891EC250027E642 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DE1AB1891EC250027E642 /* UIKit.framework */; };
@@ -14,13 +16,20 @@
 		C09DE1B41891EC250027E642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C09DE1B31891EC250027E642 /* main.m */; };
 		C09DE1B81891EC250027E642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C09DE1B71891EC250027E642 /* AppDelegate.m */; };
 		C09DE1BB1891EC250027E642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09DE1B91891EC250027E642 /* Main.storyboard */; };
-		C09DE1BE1891EC250027E642 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09DE1BD1891EC250027E642 /* ViewController.m */; };
 		C09DE1C01891EC250027E642 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09DE1BF1891EC250027E642 /* Images.xcassets */; };
 		C09DE1C71891EC250027E642 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DE1C61891EC250027E642 /* XCTest.framework */; };
 		C09DE1C81891EC250027E642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DE1A71891EC250027E642 /* Foundation.framework */; };
 		C09DE1C91891EC250027E642 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DE1AB1891EC250027E642 /* UIKit.framework */; };
 		C09DE1D11891EC250027E642 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C09DE1CF1891EC250027E642 /* InfoPlist.strings */; };
 		C09DE1D31891EC250027E642 /* MallTipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C09DE1D21891EC250027E642 /* MallTipTests.m */; };
+		C09DE1E51891ECE00027E642 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C09DE1E31891ECE00027E642 /* Model.xcdatamodeld */; };
+		C09DE1E81891ED540027E642 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C09DE1E71891ED540027E642 /* DataManager.m */; };
+		C09DE1EE1891EDE20027E642 /* MallFeedItem+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = C09DE1ED1891EDE20027E642 /* MallFeedItem+Extra.m */; };
+		C09DE1F11891EDF50027E642 /* NSManagedObject+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = C09DE1F01891EDF50027E642 /* NSManagedObject+Extra.m */; };
+		C09DE1F41891EE140027E642 /* NSDate+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = C09DE1F31891EE140027E642 /* NSDate+Extra.m */; };
+		C0E9AF9A1891FE1000D9BA51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E9AF991891FE1000D9BA51 /* ViewController.m */; };
+		C0E9AF9D1891FE1F00D9BA51 /* MallFeedItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E9AF9C1891FE1F00D9BA51 /* MallFeedItemCell.m */; };
+		C0E9AF9F1891FEB400D9BA51 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E9AF9E1891FEB400D9BA51 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E78D2B4C51648CB8D1BD427 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		2CD0523FFCB54E52BADAA12D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00CAFC51892091700BE6CFE /* MallFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallFeedItem.h; sourceTree = "<group>"; };
+		C00CAFC61892091700BE6CFE /* MallFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallFeedItem.m; sourceTree = "<group>"; };
 		C09DE1A41891EC250027E642 /* MallTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MallTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09DE1A71891EC250027E642 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C09DE1A91891EC250027E642 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +58,27 @@
 		C09DE1B61891EC250027E642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C09DE1B71891EC250027E642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C09DE1BA1891EC250027E642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C09DE1BC1891EC250027E642 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C09DE1BD1891EC250027E642 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C09DE1BF1891EC250027E642 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C09DE1C51891EC250027E642 /* MallTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MallTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09DE1C61891EC250027E642 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C09DE1CE1891EC250027E642 /* MallTipTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MallTipTests-Info.plist"; sourceTree = "<group>"; };
 		C09DE1D01891EC250027E642 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C09DE1D21891EC250027E642 /* MallTipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallTipTests.m; sourceTree = "<group>"; };
+		C09DE1E41891ECE00027E642 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C09DE1E61891ED540027E642 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		C09DE1E71891ED540027E642 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		C09DE1EC1891EDE20027E642 /* MallFeedItem+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MallFeedItem+Extra.h"; sourceTree = "<group>"; };
+		C09DE1ED1891EDE20027E642 /* MallFeedItem+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MallFeedItem+Extra.m"; sourceTree = "<group>"; };
+		C09DE1EF1891EDF50027E642 /* NSManagedObject+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Extra.h"; sourceTree = "<group>"; };
+		C09DE1F01891EDF50027E642 /* NSManagedObject+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Extra.m"; sourceTree = "<group>"; };
+		C09DE1F21891EE140027E642 /* NSDate+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extra.h"; sourceTree = "<group>"; };
+		C09DE1F31891EE140027E642 /* NSDate+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extra.m"; sourceTree = "<group>"; };
+		C09DE1F51891EE3C0027E642 /* MTCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCommon.h; sourceTree = "<group>"; };
+		C0E9AF981891FE1000D9BA51 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0E9AF991891FE1000D9BA51 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0E9AF9B1891FE1F00D9BA51 /* MallFeedItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallFeedItemCell.h; sourceTree = "<group>"; };
+		C0E9AF9C1891FE1F00D9BA51 /* MallFeedItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallFeedItemCell.m; sourceTree = "<group>"; };
+		C0E9AF9E1891FEB400D9BA51 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +86,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E9AF9F1891FEB400D9BA51 /* CoreData.framework in Frameworks */,
 				C09DE1AA1891EC250027E642 /* CoreGraphics.framework in Frameworks */,
 				C09DE1AC1891EC250027E642 /* UIKit.framework in Frameworks */,
 				C09DE1A81891EC250027E642 /* Foundation.framework in Frameworks */,
+				9E27AD9D1BED4EF598B7A46C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +114,7 @@
 				C09DE1CC1891EC250027E642 /* MallTipTests */,
 				C09DE1A61891EC250027E642 /* Frameworks */,
 				C09DE1A51891EC250027E642 /* Products */,
+				1E78D2B4C51648CB8D1BD427 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +130,12 @@
 		C09DE1A61891EC250027E642 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0E9AF9E1891FEB400D9BA51 /* CoreData.framework */,
 				C09DE1A71891EC250027E642 /* Foundation.framework */,
 				C09DE1A91891EC250027E642 /* CoreGraphics.framework */,
 				C09DE1AB1891EC250027E642 /* UIKit.framework */,
 				C09DE1C61891EC250027E642 /* XCTest.framework */,
+				2CD0523FFCB54E52BADAA12D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,13 +143,15 @@
 		C09DE1AD1891EC250027E642 /* MallTip */ = {
 			isa = PBXGroup;
 			children = (
+				C09DE1DC1891ECD60027E642 /* Category */,
+				C09DE1DD1891ECD60027E642 /* Data */,
+				C09DE1DF1891ECD60027E642 /* ViewControllers */,
 				C09DE1B61891EC250027E642 /* AppDelegate.h */,
 				C09DE1B71891EC250027E642 /* AppDelegate.m */,
 				C09DE1B91891EC250027E642 /* Main.storyboard */,
-				C09DE1BC1891EC250027E642 /* ViewController.h */,
-				C09DE1BD1891EC250027E642 /* ViewController.m */,
 				C09DE1BF1891EC250027E642 /* Images.xcassets */,
 				C09DE1AE1891EC250027E642 /* Supporting Files */,
+				C09DE1F51891EE3C0027E642 /* MTCommon.h */,
 			);
 			path = MallTip;
 			sourceTree = "<group>";
@@ -152,6 +185,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C09DE1DC1891ECD60027E642 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C09DE1EF1891EDF50027E642 /* NSManagedObject+Extra.h */,
+				C09DE1F01891EDF50027E642 /* NSManagedObject+Extra.m */,
+				C09DE1F21891EE140027E642 /* NSDate+Extra.h */,
+				C09DE1F31891EE140027E642 /* NSDate+Extra.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C09DE1DD1891ECD60027E642 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C09DE1DE1891ECD60027E642 /* Entity */,
+				C09DE1E31891ECE00027E642 /* Model.xcdatamodeld */,
+				C09DE1E61891ED540027E642 /* DataManager.h */,
+				C09DE1E71891ED540027E642 /* DataManager.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C09DE1DE1891ECD60027E642 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C09DE1EC1891EDE20027E642 /* MallFeedItem+Extra.h */,
+				C09DE1ED1891EDE20027E642 /* MallFeedItem+Extra.m */,
+				C00CAFC51892091700BE6CFE /* MallFeedItem.h */,
+				C00CAFC61892091700BE6CFE /* MallFeedItem.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C09DE1DF1891ECD60027E642 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0E9AF971891FE1000D9BA51 /* MallFeed */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C0E9AF971891FE1000D9BA51 /* MallFeed */ = {
+			isa = PBXGroup;
+			children = (
+				C0E9AF981891FE1000D9BA51 /* ViewController.h */,
+				C0E9AF991891FE1000D9BA51 /* ViewController.m */,
+				C0E9AF9B1891FE1F00D9BA51 /* MallFeedItemCell.h */,
+				C0E9AF9C1891FE1F00D9BA51 /* MallFeedItemCell.m */,
+			);
+			path = MallFeed;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C09DE1D61891EC250027E642 /* Build configuration list for PBXNativeTarget "MallTip" */;
 			buildPhases = (
+				A0D5A75C0DD6496396A28701 /* Check Pods Manifest.lock */,
 				C09DE1A01891EC250027E642 /* Sources */,
 				C09DE1A11891EC250027E642 /* Frameworks */,
 				C09DE1A21891EC250027E642 /* Resources */,
+				4CF099F546F44926950E301F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,14 +331,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CF099F546F44926950E301F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D5A75C0DD6496396A28701 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C09DE1A01891EC250027E642 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C09DE1BE1891EC250027E642 /* ViewController.m in Sources */,
+				C00CAFC71892091700BE6CFE /* MallFeedItem.m in Sources */,
+				C09DE1F41891EE140027E642 /* NSDate+Extra.m in Sources */,
+				C09DE1E81891ED540027E642 /* DataManager.m in Sources */,
 				C09DE1B81891EC250027E642 /* AppDelegate.m in Sources */,
+				C0E9AF9A1891FE1000D9BA51 /* ViewController.m in Sources */,
+				C0E9AF9D1891FE1F00D9BA51 /* MallFeedItemCell.m in Sources */,
 				C09DE1B41891EC250027E642 /* main.m in Sources */,
+				C09DE1EE1891EDE20027E642 /* MallFeedItem+Extra.m in Sources */,
+				C09DE1F11891EDF50027E642 /* NSManagedObject+Extra.m in Sources */,
+				C09DE1E51891ECE00027E642 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +502,7 @@
 		};
 		C09DE1D71891EC250027E642 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E78D2B4C51648CB8D1BD427 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,6 +516,7 @@
 		};
 		C09DE1D81891EC250027E642 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E78D2B4C51648CB8D1BD427 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -460,6 +589,7 @@
 				C09DE1D81891EC250027E642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C09DE1D91891EC250027E642 /* Build configuration list for PBXNativeTarget "MallTipTests" */ = {
 			isa = XCConfigurationList;
@@ -468,8 +598,22 @@
 				C09DE1DB1891EC250027E642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C09DE1E31891ECE00027E642 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C09DE1E41891ECE00027E642 /* Model.xcdatamodel */,
+			);
+			currentVersion = C09DE1E41891ECE00027E642 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C09DE19C1891EC240027E642 /* Project object */;
 }
