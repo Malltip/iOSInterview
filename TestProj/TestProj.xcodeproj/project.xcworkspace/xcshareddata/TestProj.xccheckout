@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6E5E1BFC-B266-480F-9A75-4B3381352F26</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestProj</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0B90E39B-8D72-4FE1-880D-BCB29FA7C899</key>
+		<string>https://github.com/DanKolov/iOSInterview/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestProj/TestProj.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0B90E39B-8D72-4FE1-880D-BCB29FA7C899</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>0B90E39B-8D72-4FE1-880D-BCB29FA7C899</key>
+		<string>https://github.com/DanKolov/iOSInterview</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/DanKolov/iOSInterview/trunk/TestProj/TestProj.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0B90E39B-8D72-4FE1-880D-BCB29FA7C899</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0B90E39B-8D72-4FE1-880D-BCB29FA7C899</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSInterview</string>
+		</dict>
+	</array>
+</dict>
+</plist>
