@@ -49,35 +49,33 @@ The JSON returned by this request is shown below. Note that actual JSON may cont
 
 ```JSON
 {
-  "feeds":[{
-      "feedId":12499,
-      "retailerId":54520,
-      "retailerName":"GameStop",
-      "title":"Video Games Up to 50% Off!",
-      "dateValid":"Limited Time Only",
-      "EndDate":"0001-01-01T00:00:00Z",
-      "hasLogo":true,
-      "isInMall":true,
-      "MallNameId":"",
-      "approved":true,
-      "isSaved":false,
-      "isValid":true
+  "feeds":[    {
+      "feedId": 41527,
+      "retailerId": 59826,
+      "retailerName": "PacSun",
+      "title": "Denim 2 for $69!",
+      "description": "",
+      "dateValid": "Limited Time Only",
+      "hasLogo": true,
+      "approved": true,
+      "isSaved": false,
+      "isValid": true,
+      "isCoupon": false
     },
     {
-      "feedId":12461,
-      "retailerId":54995,
-      "retailerName":"Justice",
-      "title":"Girls Clothes 40% Off!",
-      "dateValid":"Jan 21 - Feb 05",
-      "EndDate":"0001-01-01T00:00:00Z",
-      "hasLogo":true,"isInMall":true,
-      "MallNameId":"",
-      "approved":true,
-      "isSaved":false,
-      "isValid":true
-    },
-    ...],
-  "offset":11652
+      "feedId": 41525,
+      "retailerId": 59826,
+      "retailerName": "PacSun",
+      "title": "Chinos & more 2 for $69!",
+      "description": "",
+      "dateValid": "Limited Time Only",
+      "hasLogo": true,
+      "approved": true,
+      "isSaved": false,
+      "isValid": true,
+      "isCoupon": false
+    }
+    ...]
 }
 ```
 
