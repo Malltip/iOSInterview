@@ -79,10 +79,9 @@ The JSON returned by this request is shown below. Note that actual JSON may cont
 }
 ```
 
-Note that the JSON response contains two root elements:
+Note that the JSON response contains one root element:
 
 * "feeds" contains an array of deals for the mall specified
-* "offset" contains the feedId of the last feed in the feeds array 
 
 **Retailer Logo** images can be obtained from 
 
