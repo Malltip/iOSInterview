@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <ImageView
+        android:id="@+id/retailerLogoImageView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Title Here"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/dateValidTextView"
+            android:layout_width="match_parent"
+            android:layout_below="@id/titleTextView"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:text="Valid Date Here"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
