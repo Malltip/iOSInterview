@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7EB95585-D2B1-44F5-AC6E-C8A76E42D1B5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MallTipTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6BAE4BF9-7A37-4428-9E2E-02F8584FFA0F</key>
+		<string>https://github.com/mattgriffin94/iOSInterview.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Source/MallTipTest/MallTipTest.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6BAE4BF9-7A37-4428-9E2E-02F8584FFA0F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mattgriffin94/iOSInterview.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6BAE4BF9-7A37-4428-9E2E-02F8584FFA0F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6BAE4BF9-7A37-4428-9E2E-02F8584FFA0F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSInterview</string>
+		</dict>
+	</array>
+</dict>
+</plist>

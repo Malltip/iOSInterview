@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D8D05718A35D7D0031605B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D8D05618A35D7D0031605B /* Storyboard.storyboard */; };
+		18D8D05A18A360CB0031605B /* MTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8D05918A360CB0031605B /* MTTableViewController.m */; };
+		18D8D06218A3BF660031605B /* MTFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8D06118A3BF660031605B /* MTFeed.m */; };
+		18D8D06818A4357A0031605B /* MTCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8D06718A4357A0031605B /* MTCell.m */; };
+		18DCA1E818A3520D003E7B4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCA1E718A3520D003E7B4F /* Foundation.framework */; };
+		18DCA1EA18A3520D003E7B4F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCA1E918A3520D003E7B4F /* CoreGraphics.framework */; };
+		18DCA1EC18A3520D003E7B4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCA1EB18A3520D003E7B4F /* UIKit.framework */; };
+		18DCA1EE18A3520D003E7B4F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCA1ED18A3520D003E7B4F /* CoreData.framework */; };
+		18DCA1F418A3520D003E7B4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18DCA1F218A3520D003E7B4F /* InfoPlist.strings */; };
+		18DCA1F618A3520D003E7B4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCA1F518A3520D003E7B4F /* main.m */; };
+		18DCA1FA18A3520D003E7B4F /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCA1F918A3520D003E7B4F /* MTAppDelegate.m */; };
+		18DCA1FD18A3520D003E7B4F /* MallTipTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18DCA1FB18A3520D003E7B4F /* MallTipTest.xcdatamodeld */; };
+		18DCA1FF18A3520D003E7B4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DCA1FE18A3520D003E7B4F /* Images.xcassets */; };
+		18DCA20618A3520D003E7B4F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCA20518A3520D003E7B4F /* XCTest.framework */; };
+		18DCA20718A3520D003E7B4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCA1E718A3520D003E7B4F /* Foundation.framework */; };
+		18DCA20818A3520D003E7B4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCA1EB18A3520D003E7B4F /* UIKit.framework */; };
+		18DCA20918A3520D003E7B4F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DCA1ED18A3520D003E7B4F /* CoreData.framework */; };
+		18DCA21118A3520D003E7B4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18DCA20F18A3520D003E7B4F /* InfoPlist.strings */; };
+		18DCA21318A3520D003E7B4F /* MallTipTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCA21218A3520D003E7B4F /* MallTipTestTests.m */; };
+		B8C43BD5C48649C29B8C0114 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 351481BFC11045EEBBF5F9E4 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DCA20A18A3520D003E7B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DCA1DC18A3520D003E7B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DCA1E318A3520D003E7B4F;
+			remoteInfo = MallTipTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0801619DDBC24EBA90D31AC3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		18D8D05618A35D7D0031605B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		18D8D05818A360CB0031605B /* MTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTableViewController.h; sourceTree = "<group>"; };
+		18D8D05918A360CB0031605B /* MTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTableViewController.m; sourceTree = "<group>"; };
+		18D8D06018A3BF660031605B /* MTFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFeed.h; sourceTree = "<group>"; };
+		18D8D06118A3BF660031605B /* MTFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFeed.m; sourceTree = "<group>"; };
+		18D8D06618A4357A0031605B /* MTCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCell.h; sourceTree = "<group>"; };
+		18D8D06718A4357A0031605B /* MTCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCell.m; sourceTree = "<group>"; };
+		18DCA1E418A3520D003E7B4F /* MallTipTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MallTipTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DCA1E718A3520D003E7B4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18DCA1E918A3520D003E7B4F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18DCA1EB18A3520D003E7B4F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18DCA1ED18A3520D003E7B4F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18DCA1F118A3520D003E7B4F /* MallTipTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MallTipTest-Info.plist"; sourceTree = "<group>"; };
+		18DCA1F318A3520D003E7B4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18DCA1F518A3520D003E7B4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18DCA1F718A3520D003E7B4F /* MallTipTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MallTipTest-Prefix.pch"; sourceTree = "<group>"; };
+		18DCA1F818A3520D003E7B4F /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
+		18DCA1F918A3520D003E7B4F /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
+		18DCA1FC18A3520D003E7B4F /* MallTipTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MallTipTest.xcdatamodel; sourceTree = "<group>"; };
+		18DCA1FE18A3520D003E7B4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18DCA20418A3520D003E7B4F /* MallTipTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MallTipTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DCA20518A3520D003E7B4F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18DCA20E18A3520D003E7B4F /* MallTipTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MallTipTestTests-Info.plist"; sourceTree = "<group>"; };
+		18DCA21018A3520D003E7B4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18DCA21218A3520D003E7B4F /* MallTipTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallTipTestTests.m; sourceTree = "<group>"; };
+		351481BFC11045EEBBF5F9E4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DCA1E118A3520D003E7B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DCA1EA18A3520D003E7B4F /* CoreGraphics.framework in Frameworks */,
+				18DCA1EE18A3520D003E7B4F /* CoreData.framework in Frameworks */,
+				18DCA1EC18A3520D003E7B4F /* UIKit.framework in Frameworks */,
+				18DCA1E818A3520D003E7B4F /* Foundation.framework in Frameworks */,
+				B8C43BD5C48649C29B8C0114 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCA20118A3520D003E7B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DCA20618A3520D003E7B4F /* XCTest.framework in Frameworks */,
+				18DCA20918A3520D003E7B4F /* CoreData.framework in Frameworks */,
+				18DCA20818A3520D003E7B4F /* UIKit.framework in Frameworks */,
+				18DCA20718A3520D003E7B4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DCA1DB18A3520D003E7B4F = {
+			isa = PBXGroup;
+			children = (
+				18DCA1EF18A3520D003E7B4F /* MallTipTest */,
+				18DCA20C18A3520D003E7B4F /* MallTipTestTests */,
+				18DCA1E618A3520D003E7B4F /* Frameworks */,
+				18DCA1E518A3520D003E7B4F /* Products */,
+				0801619DDBC24EBA90D31AC3 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		18DCA1E518A3520D003E7B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DCA1E418A3520D003E7B4F /* MallTipTest.app */,
+				18DCA20418A3520D003E7B4F /* MallTipTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DCA1E618A3520D003E7B4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18DCA1E718A3520D003E7B4F /* Foundation.framework */,
+				18DCA1E918A3520D003E7B4F /* CoreGraphics.framework */,
+				18DCA1EB18A3520D003E7B4F /* UIKit.framework */,
+				18DCA1ED18A3520D003E7B4F /* CoreData.framework */,
+				18DCA20518A3520D003E7B4F /* XCTest.framework */,
+				351481BFC11045EEBBF5F9E4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18DCA1EF18A3520D003E7B4F /* MallTipTest */ = {
+			isa = PBXGroup;
+			children = (
+				18D8D05618A35D7D0031605B /* Storyboard.storyboard */,
+				18D8D06618A4357A0031605B /* MTCell.h */,
+				18D8D06718A4357A0031605B /* MTCell.m */,
+				18D8D06018A3BF660031605B /* MTFeed.h */,
+				18D8D06118A3BF660031605B /* MTFeed.m */,
+				18DCA1F818A3520D003E7B4F /* MTAppDelegate.h */,
+				18DCA1F918A3520D003E7B4F /* MTAppDelegate.m */,
+				18D8D05818A360CB0031605B /* MTTableViewController.h */,
+				18D8D05918A360CB0031605B /* MTTableViewController.m */,
+				18DCA1FE18A3520D003E7B4F /* Images.xcassets */,
+				18DCA1FB18A3520D003E7B4F /* MallTipTest.xcdatamodeld */,
+				18DCA1F018A3520D003E7B4F /* Supporting Files */,
+			);
+			path = MallTipTest;
+			sourceTree = "<group>";
+		};
+		18DCA1F018A3520D003E7B4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DCA1F118A3520D003E7B4F /* MallTipTest-Info.plist */,
+				18DCA1F218A3520D003E7B4F /* InfoPlist.strings */,
+				18DCA1F518A3520D003E7B4F /* main.m */,
+				18DCA1F718A3520D003E7B4F /* MallTipTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DCA20C18A3520D003E7B4F /* MallTipTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				18DCA21218A3520D003E7B4F /* MallTipTestTests.m */,
+				18DCA20D18A3520D003E7B4F /* Supporting Files */,
+			);
+			path = MallTipTestTests;
+			sourceTree = "<group>";
+		};
+		18DCA20D18A3520D003E7B4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DCA20E18A3520D003E7B4F /* MallTipTestTests-Info.plist */,
+				18DCA20F18A3520D003E7B4F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DCA1E318A3520D003E7B4F /* MallTipTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DCA21618A3520D003E7B4F /* Build configuration list for PBXNativeTarget "MallTipTest" */;
+			buildPhases = (
+				5A1744E69CBF43A3A890E087 /* Check Pods Manifest.lock */,
+				18DCA1E018A3520D003E7B4F /* Sources */,
+				18DCA1E118A3520D003E7B4F /* Frameworks */,
+				18DCA1E218A3520D003E7B4F /* Resources */,
+				EDBEC6B532B44062815BF298 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MallTipTest;
+			productName = MallTipTest;
+			productReference = 18DCA1E418A3520D003E7B4F /* MallTipTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DCA20318A3520D003E7B4F /* MallTipTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DCA21918A3520D003E7B4F /* Build configuration list for PBXNativeTarget "MallTipTestTests" */;
+			buildPhases = (
+				18DCA20018A3520D003E7B4F /* Sources */,
+				18DCA20118A3520D003E7B4F /* Frameworks */,
+				18DCA20218A3520D003E7B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DCA20B18A3520D003E7B4F /* PBXTargetDependency */,
+			);
+			name = MallTipTestTests;
+			productName = MallTipTestTests;
+			productReference = 18DCA20418A3520D003E7B4F /* MallTipTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DCA1DC18A3520D003E7B4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Matthew Griffin";
+				TargetAttributes = {
+					18DCA20318A3520D003E7B4F = {
+						TestTargetID = 18DCA1E318A3520D003E7B4F;
+					};
+				};
+			};
+			buildConfigurationList = 18DCA1DF18A3520D003E7B4F /* Build configuration list for PBXProject "MallTipTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18DCA1DB18A3520D003E7B4F;
+			productRefGroup = 18DCA1E518A3520D003E7B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DCA1E318A3520D003E7B4F /* MallTipTest */,
+				18DCA20318A3520D003E7B4F /* MallTipTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DCA1E218A3520D003E7B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DCA1F418A3520D003E7B4F /* InfoPlist.strings in Resources */,
+				18DCA1FF18A3520D003E7B4F /* Images.xcassets in Resources */,
+				18D8D05718A35D7D0031605B /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCA20218A3520D003E7B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DCA21118A3520D003E7B4F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A1744E69CBF43A3A890E087 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDBEC6B532B44062815BF298 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DCA1E018A3520D003E7B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D8D06218A3BF660031605B /* MTFeed.m in Sources */,
+				18DCA1F618A3520D003E7B4F /* main.m in Sources */,
+				18D8D06818A4357A0031605B /* MTCell.m in Sources */,
+				18DCA1FD18A3520D003E7B4F /* MallTipTest.xcdatamodeld in Sources */,
+				18D8D05A18A360CB0031605B /* MTTableViewController.m in Sources */,
+				18DCA1FA18A3520D003E7B4F /* MTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCA20018A3520D003E7B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DCA21318A3520D003E7B4F /* MallTipTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DCA20B18A3520D003E7B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DCA1E318A3520D003E7B4F /* MallTipTest */;
+			targetProxy = 18DCA20A18A3520D003E7B4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18DCA1F218A3520D003E7B4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DCA1F318A3520D003E7B4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18DCA20F18A3520D003E7B4F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DCA21018A3520D003E7B4F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DCA21418A3520D003E7B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18DCA21518A3520D003E7B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DCA21718A3520D003E7B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0801619DDBC24EBA90D31AC3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MallTipTest/MallTipTest-Prefix.pch";
+				INFOPLIST_FILE = "MallTipTest/MallTipTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18DCA21818A3520D003E7B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0801619DDBC24EBA90D31AC3 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MallTipTest/MallTipTest-Prefix.pch";
+				INFOPLIST_FILE = "MallTipTest/MallTipTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18DCA21A18A3520D003E7B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MallTipTest.app/MallTipTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MallTipTest/MallTipTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MallTipTestTests/MallTipTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18DCA21B18A3520D003E7B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MallTipTest.app/MallTipTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MallTipTest/MallTipTest-Prefix.pch";
+				INFOPLIST_FILE = "MallTipTestTests/MallTipTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DCA1DF18A3520D003E7B4F /* Build configuration list for PBXProject "MallTipTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DCA21418A3520D003E7B4F /* Debug */,
+				18DCA21518A3520D003E7B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DCA21618A3520D003E7B4F /* Build configuration list for PBXNativeTarget "MallTipTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DCA21718A3520D003E7B4F /* Debug */,
+				18DCA21818A3520D003E7B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DCA21918A3520D003E7B4F /* Build configuration list for PBXNativeTarget "MallTipTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DCA21A18A3520D003E7B4F /* Debug */,
+				18DCA21B18A3520D003E7B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18DCA1FB18A3520D003E7B4F /* MallTipTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18DCA1FC18A3520D003E7B4F /* MallTipTest.xcdatamodel */,
+			);
+			currentVersion = 18DCA1FC18A3520D003E7B4F /* MallTipTest.xcdatamodel */;
+			path = MallTipTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18DCA1DC18A3520D003E7B4F /* Project object */;
+}
