@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[AppEngine sendToService:photo:photo:photo:photo:photo:photo:success:failure:]:AppEngine.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_params">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
